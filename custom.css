@@ -29,22 +29,19 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Bangers', sans-serif;
 }
 
-.header-logo {
-}
-
 .site-header {
-	background-size: contain;
-	margin: 10px auto;
-	max-width: 1200px;
+margin-bottom: 60px;
+min-height: 300px;
+
 }
 
 #navbar {
 	background: none;
-	margin-top: 20px;
+position: relative; top: 60px;
 }
 
 .site-header .home-link {
-	height: 33vh;
+
 }
 
 /* Sidebar */
@@ -52,9 +49,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Bangers';
 	font-size: 1.75rem;
 	color: white;
-	letter-spacing: .1rem;
+	letter-spacing: .05rem;
 	text-align: center;
-	text-shadow: 2px 2px 0px #333333;
 }
 
 .sidebar-container #text-2 {
@@ -71,8 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Bangers';
 	font-size: 1.75rem;
 	color: white;
-	letter-spacing: .1rem;
-		text-shadow: 2px 2px 0px #333333;
+	letter-spacing: .05rem;
 	display: block;
 	text-align: center !important;
 }
@@ -135,58 +130,18 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Footer */
 .site-footer {
-	background: #EBC97B;
+	background: #FF5A50;
 }
 
 .site-footer .sidebar-container {
 	background: #333333;
 }
 
-@media screen and (max-width: 72em) {
-	.site-header .home-link {
-		height: 30vh;
-	/* border: 1px solid gold; */
-	}
-}
+/* ======= MEDIA QUERIES ========= */
 
-@media screen and (max-width: 64em) {
-	.site-header .home-link {
-		height: 25vh;
-	/* border: 1px solid aqua;*/
-	}
-}
-
-@media screen and (max-width: 56em) {
-	.site-header .home-link {
-		height: 22vh;
-	/* border: 1px solid grey;*/
-	}
-}
-
-@media screen and (max-width: 48em) {
-	.site-header .home-link {
-		height: 20vh;
-	/* border: 1px solid green;*/
-	}
-}
-
-@media screen and (max-width: 40em) {
-	.site-header .home-link {
-		height: 20vh;
-	/* border: 1px solid pink;*/
-	}
-}
-
-@media screen and (max-width: 36em) {
-	.site-header .home-link {
-		height: 15vh;
-	/* border: 1px solid red;*/
-	}
-}
-
-@media screen and (max-width: 30em) {
-	.site-header .home-link {
-		height: 10vh;
-	/* border: 1px solid blue;*/
-	}
+@media screen and (max-width: 767px) {
+	.site-header { margin-bottom: 0px;
+min-height: 200px; background-image: contain; max-width: 100%;}
+	.site-header .home-link { margin-top: 60px;  }
+	#navbar { top: -60px; background: #FF5A50; }
 }
