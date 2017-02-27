@@ -1,1 +1,190 @@
-/* hello world whats up */
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+/*
+
+Color Key:
+Red: #FF5A50
+Blue: #4CAFC4
+Yellow: #EBC97B
+Gold: #D59E5E
+Gray: #333333
+*/
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #f9f3ec;
+}
+
+.site {
+	background: #f9f3ec;
+}
+
+a {
+	color: #ff5a50;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Bangers', sans-serif;
+}
+
+.header-logo {
+}
+
+.site-header {
+	background-size: contain;
+	margin: 10px auto;
+	max-width: 1200px;
+}
+
+#navbar {
+	background: none;
+	margin-top: 20px;
+}
+
+.site-header .home-link {
+	height: 33vh;
+}
+
+/* Sidebar */
+.sidebar-container h3.widget-title {
+	font-family: 'Bangers';
+	font-size: 1.75rem;
+	color: white;
+	letter-spacing: .05rem;
+	text-align: center;
+}
+
+.sidebar-container #text-2 {
+	display: none;
+}
+
+.logged-in .sidebar-container #text-2 {
+	display: block;
+	background: #FF5A50 url('https://2017.oc.wordcamp.org/files/2017/02/clean-halftone-pattern-white-20.png');
+	background-size: cover;
+}
+
+.sidebar-container #text-2 a {
+	font-family: 'Bangers';
+	font-size: 1.75rem;
+	color: white;
+	letter-spacing: .05rem;
+	display: block;
+	text-align: center !important;
+}
+
+#wcb_sponsors-2 {
+	background: #D59E5E url('http://2017.oc.wordcamp.org/files/2017/02/clean-halftone-pattern-white-10.png');
+	background-size: cover;
+}
+
+#wpcom_social_media_icons_widget-2 {
+	background: #4CAFC4 url('https://2017.oc.wordcamp.org/files/2017/02/clean-halftone-pattern-white-10.png');
+	background-size: cover;
+}
+
+#wpcom_social_media_icons_widget-2 a.genericon::before {
+	color: white;
+	font-size: 3rem;
+	margin-right: 10px;
+}
+
+#wpcom_social_media_icons_widget-2 a.genericon:hover::before {
+	color: #EBC97B;
+}
+
+#wpcom_social_media_icons_widget-2 ul {
+	display: flex;
+	margin: 0 auto;
+	width: 80%;
+}
+
+#wpcom_social_media_icons_widget-2 ul li {
+	width: 50%;
+	margin: 0;
+}
+
+#wpcom_social_media_icons_widget-2 ul li a {
+	margin: 0 auto;
+	display: block;
+}
+
+#wcorg_mailchimp_wiget-2 {
+	background: #333333 url('https://2017.oc.wordcamp.org/files/2017/02/clean-halftone-pattern-white-05.png');
+	background-size: cover;
+	color: white;
+}
+
+#wcorg_mailchimp_wiget-2 input[type=text] {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#wcorg_mailchimp_wiget-2 input[type=submit] {
+	background: #D59E5E;
+	border-bottom: 0;
+}
+
+#wcorg_mailchimp_wiget-2 input[type=submit]:hover {
+	background: #FF5A50;
+}
+
+/* Footer */
+.site-footer {
+	background: #EBC97B;
+}
+
+.site-footer .sidebar-container {
+	background: #333333;
+}
+
+@media screen and (max-width: 72em) {
+	.site-header .home-link {
+		height: 30vh;
+	/* border: 1px solid gold; */
+	}
+}
+
+@media screen and (max-width: 64em) {
+	.site-header .home-link {
+		height: 25vh;
+	/* border: 1px solid aqua;*/
+	}
+}
+
+@media screen and (max-width: 56em) {
+	.site-header .home-link {
+		height: 22vh;
+	/* border: 1px solid grey;*/
+	}
+}
+
+@media screen and (max-width: 48em) {
+	.site-header .home-link {
+		height: 20vh;
+	/* border: 1px solid green;*/
+	}
+}
+
+@media screen and (max-width: 40em) {
+	.site-header .home-link {
+		height: 20vh;
+	/* border: 1px solid pink;*/
+	}
+}
+
+@media screen and (max-width: 36em) {
+	.site-header .home-link {
+		height: 15vh;
+	/* border: 1px solid red;*/
+	}
+}
+
+@media screen and (max-width: 30em) {
+	.site-header .home-link {
+		height: 10vh;
+	/* border: 1px solid blue;*/
+	}
+}
