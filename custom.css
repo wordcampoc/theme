@@ -25,31 +25,34 @@ a {
 	color: #ff5a50;
 }
 
+input[type=submit] { background: #EBC97B; color: #333; border-bottom: 0px; }
+input[type=submit]:hover { background: #ff5a50; }
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Bangers', sans-serif;
 }
 
 .site-header {
-margin-bottom: 60px;
-min-height: 300px;
-
+	margin-bottom: 60px;
+	min-height: 300px;
 }
 
 #navbar {
 	background: none;
-position: relative; top: 60px;
+	position: relative;
+	top: 60px;
 }
 
 .site-header .home-link {
-
 }
 
 /* Sidebar */
 .sidebar-container h3.widget-title {
-	font-family: 'Bangers';
-	font-size: 1.75rem;
+	font-family: 'Bangers', sans-serif;
+	font-size: 1.625rem;
 	color: white;
-	letter-spacing: .05rem;
+	letter-spacing: .075rem;
+	text-shadow: 2px 2px 0px #333;
 	text-align: center;
 }
 
@@ -65,12 +68,14 @@ position: relative; top: 60px;
 
 .sidebar-container #text-2 a {
 	font-family: 'Bangers';
-	font-size: 1.75rem;
+	font-size: 1.625rem;
 	color: white;
 	letter-spacing: .05rem;
+	text-shadow: 2px 2px 0px #333;
 	display: block;
 	text-align: center !important;
 }
+.sidebar-container #text-2 a:hover { color: #EBC97B; text-decoration: none; }
 
 #wcb_sponsors-2 {
 	background: #D59E5E url('http://2017.oc.wordcamp.org/files/2017/02/clean-halftone-pattern-white-10.png');
@@ -119,14 +124,7 @@ position: relative; top: 60px;
 	margin-bottom: 20px;
 }
 
-#wcorg_mailchimp_wiget-2 input[type=submit] {
-	background: #D59E5E;
-	border-bottom: 0;
-}
 
-#wcorg_mailchimp_wiget-2 input[type=submit]:hover {
-	background: #FF5A50;
-}
 
 /* Footer */
 .site-footer {
@@ -137,11 +135,56 @@ position: relative; top: 60px;
 	background: #333333;
 }
 
-/* ======= MEDIA QUERIES ========= */
+@media screen and (max-width: 72em) {
+	.site-header .home-link {
+	/* border: 1px solid gold; */
+	}
+}
+
+@media screen and (max-width: 64em) {
+	.site-header .home-link {
+	/* border: 1px solid aqua;*/
+	}
+}
+
+@media screen and (max-width: 56em) {
+	.site-header .home-link {
+	/* border: 1px solid grey;*/
+	}
+}
 
 @media screen and (max-width: 767px) {
-	.site-header { margin-bottom: 0px;
-min-height: 200px; background-image: contain; max-width: 100%;}
-	.site-header .home-link { margin-top: 60px;  }
-	#navbar { top: -60px; background: #FF5A50; }
+	.site-header {
+		margin-bottom: 0;
+		min-height: 200px;
+		background-image: contain;
+		max-width: 100%;
+	}
+	
+	.site-header .home-link {
+		margin-top: 60px;
+	}
+	
+	#navbar {
+		top: -60px;
+		background: #FF5A50;
+	}
+}
+
+@media screen and (max-width: 40em) {
+	.site-header .home-link {
+	/* border: 1px solid pink;*/
+	}
+}
+
+@media screen and (max-width: 36em) {
+	.site-header .home-link {
+	/* border: 1px solid red;*/
+	}
+}
+
+@media screen and (max-width: 30em) {
+	.site-header .home-link {
+	/* border: 1px solid blue;*/
+	}
 }
