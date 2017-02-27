@@ -52,8 +52,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Bangers';
 	font-size: 1.75rem;
 	color: white;
-	letter-spacing: .05rem;
+	letter-spacing: .1rem;
 	text-align: center;
+	text-shadow: 2px 2px 0px #333333;
 }
 
 .sidebar-container #text-2 {
@@ -70,13 +71,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Bangers';
 	font-size: 1.75rem;
 	color: white;
-	letter-spacing: .05rem;
+	letter-spacing: .1rem;
+		text-shadow: 2px 2px 0px #333333;
 	display: block;
 	text-align: center !important;
 }
 
 #wcb_sponsors-2 {
-	background: #D59E5E url('https://2017.oc.wordcamp.org/files/2017/02/clean-halftone-pattern-white-10.png');
+	background: #D59E5E url('http://2017.oc.wordcamp.org/files/2017/02/clean-halftone-pattern-white-10.png');
 	background-size: cover;
 }
 
